@@ -1,4 +1,5 @@
 # Web Vulnerability Find
+**Find vulnerability** :- SSTI, cors, Host-Header-Injection, Command-Injection, xss, sql .
 
 **Setup Tool**
 > $ bash setup.sh
@@ -40,15 +41,19 @@ options:
 
 **SSTI Find**
 > $ python3 main.py --url url-file.txt --ssti
-![ssti](https://github.com/user-attachments/assets/591fbfcb-0e29-4ea0-b4ec-2505fb2c6b02)
+
+![ssti](https://github.com/user-attachments/assets/3865737e-314e-44f8-a098-140fd179a45e)
 
 
 **Host Header Injection**
 > $ python3 main.py --url url-file.txt --host-header
-![host-headr](https://github.com/user-attachments/assets/b3f41d8a-827a-480a-951f-99deb31032d0)
+
+![host-headr](https://github.com/user-attachments/assets/a867a51f-d818-4cc1-8397-ffd7998594cc)
 
 
 **Command Injection**
 > $ python3 main.py --url url-file.txt --command-injection
-![command-injection](https://github.com/user-attachments/assets/3383b3b1-cf35-4da7-81d2-1f18c8358bbe)
+
+![command-injection](https://github.com/user-attachments/assets/f7468c20-995f-42ed-ab26-fb9be98f3ac5)
+
 
