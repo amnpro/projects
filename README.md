@@ -1,5 +1,5 @@
 # Web Vulnerability Find
-**Find vulnerability** :- SSTI, cors, Host-Header-Injection, Command-Injection, xss, sql .
+**Find vulnerability** :- Endpoints of targets, SSTI, cors, Host-Header-Injection, Command-Injection, xss, sql .
 
 **Setup Tool**
 > $ bash setup.sh
